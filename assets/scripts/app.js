@@ -402,11 +402,11 @@ $("#design-task-force-modal-button").animatedModal({
     animatedOut:'fadeOutDown',
     color:'#fff'
 });
-$("#nll-task-force-modal-button").click(function() {
-    $("#nll-task-force-modal").removeClass('article-modal');
+$("#grace-article-modal-button").click(function() {
+    $("#grace-article-modal").removeClass('article-modal');
 });
-$("#nll-task-force-modal-button").animatedModal({
-    modalTarget:'nll-task-force-modal',
+$("#grace-article-modal-button").animatedModal({
+    modalTarget:'grace-article-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
     color:'#fff'
@@ -462,7 +462,7 @@ $("#share-design-task-force").jsSocials({
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
-$("#share-nll-task-force").jsSocials({
+$("#share-grace-article").jsSocials({
     url: "http://" + hostSite + "/nll-task-force",
     text: "SOURCE Nonprofit Lunch and Learn Task Force",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
