@@ -411,11 +411,20 @@ $("#grace-article-modal-button").animatedModal({
     animatedOut:'fadeOutDown',
     color:'#fff'
 });
-$("#source-academy-modal-button").click(function() {
-    $("#source-academy-modal").removeClass('article-modal');
+$("#ac-program-button").click(function() {
+    $("#ac-program-modal").removeClass('article-modal');
 });
-$("#source-academy-modal-button").animatedModal({
-    modalTarget:'source-academy-modal',
+$("#ac-program-modal-button").animatedModal({
+    modalTarget:'ac-program-modal',
+    animatedIn:'fadeInUp',
+    animatedOut:'fadeOutDown',
+    color:'#fff'
+});
+$("#leadership-button").click(function() {
+    $("leadership-modal").removeClass('article-modal');
+});
+$("#leadership-button").animatedModal({
+    modalTarget:'leadership-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
     color:'#fff'
@@ -468,9 +477,15 @@ $("#share-grace-article").jsSocials({
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
-$("#share-developing-students").jsSocials({
-    url: "http://" + hostSite + "/developing-our-students",
-    text: "SOURCE Developing Our Students",
+$("#share-ac-program").jsSocials({
+    url: "http://" + hostSite + "/ac-program",
+    text: "SOURCE Nonprofit Associate Consultant program",
+    shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
+    showCount: false
+});
+$("#share-leadership").jsSocials({
+    url: "http://" + hostSite + "/leadership",
+    text: "SOURCE Student Leadership",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
