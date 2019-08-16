@@ -411,7 +411,7 @@ $("#grace-article-modal-button").animatedModal({
     animatedOut:'fadeOutDown',
     color:'#fff'
 });
-$("#ac-program-button").click(function() {
+$("#ac-program-modal-button").click(function() {
     $("#ac-program-modal").removeClass('article-modal');
 });
 $("#ac-program-modal-button").animatedModal({
@@ -420,10 +420,10 @@ $("#ac-program-modal-button").animatedModal({
     animatedOut:'fadeOutDown',
     color:'#fff'
 });
-$("#leadership-button").click(function() {
-    $("leadership-modal").removeClass('article-modal');
+$("#leadership-modal-button").click(function() {
+    $("#leadership-modal").removeClass('article-modal');
 });
-$("#leadership-button").animatedModal({
+$("#leadership-modal-button").animatedModal({
     modalTarget:'leadership-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
@@ -452,13 +452,13 @@ $(document).ready(function() {
 });
 // social-sharing
 var hostSite = "2018.sourcenonprofitconsulting.org";
-$("#share-client-spotlight").jsSocials({
-    url: "http://" + hostSite + "/client-spotlight",
-    text: "SOURCE Client Spotlight - Pilgrim Place",
-    shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
-    showCount: false
+// $("#share-client-spotlight").jsSocials({
+//     url: "http://" + hostSite + "/client-spotlight",
+//     text: "SOURCE Client Spotlight - Pilgrim Place",
+//     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
+//     showCount: false
     
-});
+// });
 $("#share-source-academy").jsSocials({
     url: "http://" + hostSite + "/source-academy",
     text: "SOURCE Academy 2018",
