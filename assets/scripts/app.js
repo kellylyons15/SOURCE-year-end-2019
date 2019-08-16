@@ -393,11 +393,11 @@ $("#client-spotlight-button").animatedModal({
     animatedOut:'fadeOutDown',
     color:'#fff'
 });
-$("#design-task-force-modal-button").click(function() {
-    $("#design-task-force-modal").removeClass('article-modal');
+$("#olivia-article-modal-button").click(function() {
+    $("#olivia-article-modal").removeClass('article-modal');
 });
-$("#design-task-force-modal-button").animatedModal({
-    modalTarget:'design-task-force-modal',
+$("#olivia-article-modal-button").animatedModal({
+    modalTarget:'olivia-article-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
     color:'#fff'
@@ -465,15 +465,15 @@ $("#share-source-academy").jsSocials({
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
-$("#share-design-task-force").jsSocials({
-    url: "http://" + hostSite + "/design-task-force",
+$("#share-olivia-article").jsSocials({
+    url: "http://" + hostSite + "/raising-nonprofit",
     text: "SOURCE Nonprofit Design Task Force",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
 $("#share-grace-article").jsSocials({
-    url: "http://" + hostSite + "/nll-task-force",
-    text: "SOURCE Nonprofit Lunch and Learn Task Force",
+    url: "http://" + hostSite + "/power-ideajams",
+    text: "SOURCE Nonprofit IdeaJams",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });

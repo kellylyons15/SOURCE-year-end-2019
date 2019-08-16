@@ -348,7 +348,7 @@
                                             <div class="tab-pane-content">
                                                 <h2 class="font-size-22 color-base">Development by Design: My Task Force Experience</h2>
                                                 <p>I dragged one last text box into place. Overwhelmed with anticipation, I quickly typed the final few words before scrolling to the title page. The new Marketing Kit for incoming SOURCE Consultants was complete. I scanned each page, thrilled to see the complex structure and intricate design schemes we had woven together. I was proud that I had helped design these pages and amazed to think I had first worked with InDesign only weeks before.</p>
-                                                <a id="design-task-force-modal-button" href="#design-task-force-modal" onClick="ga('send', 'event', 'Articles', 'Click', 'Design Task Force');"><button type="button" class="btn-read-more btn-black-border btn-base-sm">Read More</button></a>
+                                                <a id="olivia-article-modal-button" href="#olivia-article-modal" onClick="ga('send', 'event', 'Articles', 'Click', 'Design Task Force');"><button type="button" class="btn-read-more btn-black-border btn-base-sm">Read More</button></a>
                                             </div>
                                         </div>
                                         <div role="tabpanel" class="show-pane tab-pane col-md-6 col-sm-6" id="tab-v3-2">
@@ -365,7 +365,7 @@
                                                 <div class="tab-pane-content">
                                                     <h2 class="font-size-22 color-base">Nonprofit Lunch & Learns Forge Deeper Connections in the Community</h2>
                                                     <p>Every month, SOURCE hosts a Nonprofit Lunch and Learn (NLL), where we invite nonprofits from the surrounding area to commiserate over a meal and listen to a speaker. This year, I was one of the fortunate few who organized these events. I  enjoyed having meals outside of our dining halls, but mostly I loved meeting people committed to making a difference within their community.</p>
-                                                    <a id="nll-task-force-modal-button" href="#nll-task-force-modal" onClick="ga('send', 'event', 'Articles', 'Click', 'Nonprofit Lunch and Learn Task Force');"><button type="button" class="btn-read-more btn-black-border btn-base-sm">Read More</button></a>
+                                                    <a id="grace-article-modal-button" href="#grace-article-modal" onClick="ga('send', 'event', 'Articles', 'Click', 'Nonprofit Lunch and Learn Task Force');"><button type="button" class="btn-read-more btn-black-border btn-base-sm">Read More</button></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -832,30 +832,30 @@
                             {% include leadership-modal.html %}
                         </div>
                     </div>
-            <div id="design-task-force-modal" class="section-modal article-modal design-task-force-modal">
+            <div id="olivia-article-modal" class="section-modal article-modal olivia-article-modal">
                 <div class="row margin-b-30">
                     <div class="col-sm-10 col-sm-offset-1 article-actions">
-                        <span id="btn-close-modal" class="close-design-task-force-modal"> 
+                        <span id="btn-close-modal" class="close-olivia-article-modal"> 
                             <button class="btn-base-brd-slide btn-slide btn-slide-center-v1 btn-base-xs">Return To Page</button>
                         </span>
                         <span class="float-right"><img class="article-logo" src="assets/img/SOURCE%20logo%20(1).PNG"></span>
                     </div>
                 </div>
                 <div class="modal-row extra-letter-margin">
-                    {% include design-task-force-modal.html %}
+                    {% include olivia-article-modal.html %}
                 </div>
             </div>
-            <div id="nll-task-force-modal" class="section-modal article-modal nll-task-force-modal">
+            <div id="grace-article-modal" class="section-modal article-modal grace-article-modal">
                     <div class="row margin-b-30">
                         <div class="col-sm-10 col-sm-offset-1 article-actions">
-                            <span id="btn-close-modal" class="close-nll-task-force-modal"> 
+                            <span id="btn-close-modal" class="close-grace-article-modal"> 
                                 <button class="btn-base-brd-slide btn-slide btn-slide-center-v1 btn-base-xs">Return To Page</button>
                             </span>
                             <span class="float-right"><img class="article-logo" src="assets/img/SOURCE%20logo%20(1).PNG"></span>
                         </div>
                     </div>
                     <div class="modal-row extra-letter-margin">
-                        {% include nll-task-force-modal.html %}
+                        {% include grace-article-modal.html %}
                     </div>
                 </div>
             <div id="client-spotlight-modal" class="section-modal article-modal client-spotlight-modal">
