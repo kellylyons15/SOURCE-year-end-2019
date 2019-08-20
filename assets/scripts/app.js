@@ -375,56 +375,20 @@ $( "#client-more" ).click(function() {
     $(" #client-more").slideUp();
     $( ".hidden-clients" ).fadeIn();
 });
-$("#my-first-button").click(function() {
-    $("#my-first-year-modal").removeClass('article-modal');
+$("#design-task-force-modal-button").click(function() {
+    $("#design-task-force-modal").removeClass('article-modal');
 });
-$("#my-first-button").animatedModal({
-    modalTarget:'my-first-year-modal',
+$("#design-task-force-modal-button").animatedModal({
+    modalTarget:'design-task-force-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
     color:'#fff'
 });
-$("#client-spotlight-button").click(function() {
-    $("#client-spotlight-modal").removeClass('article-modal');
+$("#nll-task-force-modal-button").click(function() {
+    $("#nll-task-force-modal").removeClass('article-modal');
 });
-$("#client-spotlight-button").animatedModal({
-    modalTarget:'client-spotlight-modal',
-    animatedIn:'fadeInUp',
-    animatedOut:'fadeOutDown',
-    color:'#fff'
-});
-$("#olivia-article-modal-button").click(function() {
-    $("#olivia-article-modal").removeClass('article-modal');
-});
-$("#olivia-article-modal-button").animatedModal({
-    modalTarget:'olivia-article-modal',
-    animatedIn:'fadeInUp',
-    animatedOut:'fadeOutDown',
-    color:'#fff'
-});
-$("#grace-article-modal-button").click(function() {
-    $("#grace-article-modal").removeClass('article-modal');
-});
-$("#grace-article-modal-button").animatedModal({
-    modalTarget:'grace-article-modal',
-    animatedIn:'fadeInUp',
-    animatedOut:'fadeOutDown',
-    color:'#fff'
-});
-$("#ac-program-modal-button").click(function() {
-    $("#ac-program-modal").removeClass('article-modal');
-});
-$("#ac-program-modal-button").animatedModal({
-    modalTarget:'ac-program-modal',
-    animatedIn:'fadeInUp',
-    animatedOut:'fadeOutDown',
-    color:'#fff'
-});
-$("#leadership-modal-button").click(function() {
-    $("#leadership-modal").removeClass('article-modal');
-});
-$("#leadership-modal-button").animatedModal({
-    modalTarget:'leadership-modal',
+$("#nll-task-force-modal-button").animatedModal({
+    modalTarget:'nll-task-force-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
     color:'#fff'
@@ -452,40 +416,16 @@ $(document).ready(function() {
 });
 // social-sharing
 var hostSite = "2018.sourcenonprofitconsulting.org";
-// $("#share-client-spotlight").jsSocials({
-//     url: "http://" + hostSite + "/client-spotlight",
-//     text: "SOURCE Client Spotlight - Pilgrim Place",
-//     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
-//     showCount: false
-    
-// });
-$("#share-source-academy").jsSocials({
-    url: "http://" + hostSite + "/source-academy",
-    text: "SOURCE Academy 2018",
-    shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
-    showCount: false
-});
-$("#share-olivia-article").jsSocials({
-    url: "http://" + hostSite + "/raising-nonprofit",
+
+$("#share-design-task-force").jsSocials({
+    url: "http://" + hostSite + "/design-task-force",
     text: "SOURCE Nonprofit Design Task Force",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
-$("#share-grace-article").jsSocials({
-    url: "http://" + hostSite + "/power-ideajams",
-    text: "SOURCE Nonprofit IdeaJams",
-    shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
-    showCount: false
-});
-$("#share-ac-program").jsSocials({
-    url: "http://" + hostSite + "/ac-program",
-    text: "SOURCE Nonprofit Associate Consultant program",
-    shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
-    showCount: false
-});
-$("#share-leadership").jsSocials({
-    url: "http://" + hostSite + "/leadership",
-    text: "SOURCE Student Leadership",
+$("#share-nll-task-force").jsSocials({
+    url: "http://" + hostSite + "/nll-task-force",
+    text: "SOURCE Nonprofit Lunch and Learn Task Force",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
