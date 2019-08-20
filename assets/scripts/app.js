@@ -375,20 +375,38 @@ $( "#client-more" ).click(function() {
     $(" #client-more").slideUp();
     $( ".hidden-clients" ).fadeIn();
 });
-$("#design-task-force-modal-button").click(function() {
-    $("#design-task-force-modal").removeClass('article-modal');
+$("#ac-program-modal-button").click(function() {
+    $("#ac-program-modal").removeClass('article-modal');
 });
-$("#design-task-force-modal-button").animatedModal({
-    modalTarget:'design-task-force-modal',
+$("#ac-program-modal-button").animatedModal({
+    modalTarget:'ac-program-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
     color:'#fff'
 });
-$("#nll-task-force-modal-button").click(function() {
-    $("#nll-task-force-modal").removeClass('article-modal');
+$("#leadership-modal-button").click(function() {
+    $("#leadership-modal").removeClass('article-modal');
 });
-$("#nll-task-force-modal-button").animatedModal({
-    modalTarget:'nll-task-force-modal',
+$("#leadership-modal-button").animatedModal({
+    modalTarget:'leadership-modal',
+    animatedIn:'fadeInUp',
+    animatedOut:'fadeOutDown',
+    color:'#fff'
+});
+$("#raising-nonprofit-modal-button").click(function() {
+    $("#raising-nonprofit-modal").removeClass('article-modal');
+});
+$("#raising-nonprofit-modal-button").animatedModal({
+    modalTarget:'raising-nonprofit-modal',
+    animatedIn:'fadeInUp',
+    animatedOut:'fadeOutDown',
+    color:'#fff'
+});
+$("#ideajam-modal-button").click(function() {
+    $("#ideajam-modal").removeClass('article-modal');
+});
+$("#ideajam-modal-button").animatedModal({
+    modalTarget:'ideajam-modal',
     animatedIn:'fadeInUp',
     animatedOut:'fadeOutDown',
     color:'#fff'
@@ -417,14 +435,26 @@ $(document).ready(function() {
 // social-sharing
 var hostSite = "2018.sourcenonprofitconsulting.org";
 
-$("#share-design-task-force").jsSocials({
-    url: "http://" + hostSite + "/design-task-force",
+$("#share-ac-program").jsSocials({
+    url: "http://" + hostSite + "/ac-program",
     text: "SOURCE Nonprofit Design Task Force",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
 });
-$("#share-nll-task-force").jsSocials({
-    url: "http://" + hostSite + "/nll-task-force",
+$("#share-leadership").jsSocials({
+    url: "http://" + hostSite + "/leadership",
+    text: "SOURCE Nonprofit Leadership",
+    shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
+    showCount: false
+});
+$("#share-raising-nonprofit").jsSocials({
+    url: "http://" + hostSite + "/raising-nonprofit",
+    text: "SOURCE Nonprofit Design Task Force",
+    shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
+    showCount: false
+});
+$("#share-ideajam").jsSocials({
+    url: "http://" + hostSite + "/ideajam",
     text: "SOURCE Nonprofit Lunch and Learn Task Force",
     shares: ["email", "twitter", "facebook", "googleplus", "linkedin"],
     showCount: false
